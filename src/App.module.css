@@ -5,6 +5,11 @@
   background-color: rgb(24, 24, 24);
   color:aqua;
   height: 100px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
 }
 
 .PageArea{
