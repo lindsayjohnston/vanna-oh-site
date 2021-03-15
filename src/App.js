@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styles from './App.module.css';
 import { BrowserRouter, NavLink, Route } from 'react-router-dom';
+import HomePage from './HomePage/HomePage';
 
 
 class App extends Component {
@@ -47,7 +48,7 @@ class App extends Component {
               path="/" 
               exact 
               render={(props)=>(
-              <div>HOME STUFF</div>
+              <HomePage/>
             )}></Route>
           </div>
         </div>
